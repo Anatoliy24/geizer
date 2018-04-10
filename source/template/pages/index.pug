@@ -1,0 +1,48 @@
+extends ../_template
+
+block variables
+  - var title = 'Главная страница'
+
+block content
+  .n-header
+    .n-header-top
+      .n-header-top__logo
+      .n-header-top__b-contacts
+        .n-header-top__title.n-header-top__city Санкт-Петербург
+        a.n-header-top__b-tel(href='tel:88005002530') 8 (812) 605 00 55
+      .n-header-top__b
+        .n-header-top__icon.n-header-top__icon_basket
+        .n-header-top__item-b
+          .n-header-top__title Корзина
+          .n-header-top__quant Покупок нет
+          .n-header-top__quant.active 3шт. / 125 000 руб.
+      .n-header-top__b
+        .n-header-top__icon.n-header-top__icon_account
+        .n-header-top__item-b
+          .n-header-top__title Личный кабинет
+          .n-header-top__reg Вход / Регистрация
+          .n-header-top__reg.active Владимир
+
+    .n-header-bottom-wrap
+      .n-header-bottom
+        .n-header-bottom__cat Каталог
+          .n-header-bottom__drop-menu
+            .n-header__drop-menu-head
+              .n-header__drop-menu-head-title Фильтры и картриджи </br>для квартиры
+              .n-header__drop-menu-head-title Фильтры для</br> загородных домов
+              .n-header__drop-menu-head-close
+
+        .n-header-bottom__menu
+          .n-header-bottom__menu-list
+            a(href="javascript:void(0);").n-header-bottom__menu-item О магазине
+            a(href="javascript:void(0);").n-header-bottom__menu-item Акции
+            a(href="javascript:void(0);").n-header-bottom__menu-item Доставка
+            a(href="javascript:void(0);").n-header-bottom__menu-item Оплата
+            a(href="javascript:void(0);").n-header-bottom__menu-item Контакты
+            a(href="javascript:void(0);").n-header-bottom__menu-item Сервис
+        .n-header-bottom__search
+          input(type='search')
+
+
+
+  

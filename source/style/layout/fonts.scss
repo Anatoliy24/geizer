@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'PT Sans Bold';
+  src: url('/assets/fonts/pt-sans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin ptsansbl() {
+  font-family: 'PT Sans Bold', serif;
+}
+
+@font-face {
+  font-family: 'PT Sans Caption';
+  src: url('/assets/fonts/pt-sans-caption-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin ptsanscaption() {
+  font-family: 'PT Sans Caption', serif;
+}
+
+@font-face {
+  font-family: 'PT Sans Caption Bold';
+  src: url('/assets/fonts/pt-sans-caption-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin ptsanscaptionbl() {
+  font-family: 'PT Sans Caption Bold', serif;
+}
+
+@font-face {
+  font-family: 'PT Serif Bold';
+  src: url('/assets/fonts/pt-serif-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin ptserifbl() {
+  font-family: 'PT Serif Bold', serif;
+}
+
+// @mixin roboto ($style: 'regular') {
+//   font-family: 'Roboto';
+//   @if $style=='regular' {
+//     font-weight: 400;
+//   }
+//   @if $style=='medium' {
+//     font-weight: 500;
+//   }
+//   @if $style=='light' {
+//     font-weight: 300;
+//   }
+// }
