@@ -1,10 +1,11 @@
 extends ../_template
 
+
 block variables
   - var title = 'Главная страница'
 
 block content
-  .n-header
+  header.n-header
     .n-header-top
       .n-header-top__logo
       .n-header-top__b-contacts
@@ -33,23 +34,22 @@ block content
               .n-header__drop-menu-head-close
             .n-header__drop-menu-list-wrap
               .n-header__drop-menu-list.n-header__drop-menu-list_left
-                .n-header__drop-menu-item Обратный осмос и НАНОТЕК
-                .n-header__drop-menu-item Стационарные фильтры
-                .n-header__drop-menu-item Фильтры–кувшины
-                .n-header__drop-menu-item Магистральные фильтры
-                .n-header__drop-menu-item Фильтры для самогона
-                .n-header__drop-menu-item Комплектующие
-                .n-header__drop-menu-item Услуги
+                a(href="javascript:void(0);").n-header__drop-menu-item Обратный осмос и НАНОТЕК
+                a(href="javascript:void(0);").n-header__drop-menu-item Стационарные фильтры
+                a(href="javascript:void(0);").n-header__drop-menu-item Фильтры–кувшины
+                a(href="javascript:void(0);").n-header__drop-menu-item Магистральные фильтры
+                a(href="javascript:void(0);").n-header__drop-menu-item Фильтры для самогона
+                a(href="javascript:void(0);").n-header__drop-menu-item Комплектующие
+                a(href="javascript:void(0);").n-header__drop-menu-item Услуги
               .n-header__drop-menu-list.n-header__drop-menu-list_right
-                .n-header__drop-menu-item Баки для химических реагентов
-                .n-header__drop-menu-item Дисковые фильтры механической очистки Jimten
-                .n-header__drop-menu-item Кабинеты
-                .n-header__drop-menu-item Фильтры механической очистки
-                .n-header__drop-menu-item Комплекты фильтров (без наполнителя)
-                .n-header__drop-menu-item Умягчители
-                .n-header__drop-menu-item Установки обратного осмоса
-                .n-header__drop-menu-item УФ-стерилизаторы
-
+                a(href="javascript:void(0);").n-header__drop-menu-item Баки для химических реагентов
+                a(href="javascript:void(0);").n-header__drop-menu-item Дисковые фильтры механической очистки Jimten
+                a(href="javascript:void(0);").n-header__drop-menu-item Кабинеты
+                a(href="javascript:void(0);").n-header__drop-menu-item Фильтры механической очистки
+                a(href="javascript:void(0);").n-header__drop-menu-item Комплекты фильтров (без наполнителя)
+                a(href="javascript:void(0);").n-header__drop-menu-item Умягчители
+                a(href="javascript:void(0);").n-header__drop-menu-item Установки обратного осмоса
+                a(href="javascript:void(0);").n-header__drop-menu-item УФ-стерилизаторы
 
         .n-header-bottom__menu
           .n-header-bottom__menu-list
@@ -64,4 +64,241 @@ block content
 
 
 
-  
+  main.content-holder
+    .hold-content
+      aside.aside
+        .n-accordion
+          .n-accordion__item
+            .n-accordion__title-block
+              .n-accordion__title Обратный осмос и НАНОТЕК
+              .n-accordion__title-icon
+            .n-accordion__info
+              ul.n-accordion__info-list
+                li.n-accordion__info-item Фильтры под мойку
+                li.n-accordion__info-item Насадки на кран
+                li.n-accordion__info-item
+                  .n-accordion-inner
+                    .n-accordion-inner__item
+                      .n-accordion-inner__title-block
+                        .n-accordion-inner__title Сменные элементы
+                        .n-accordion-inner__title-icon
+                      .n-accordion-inner__info
+                        ul.n-accordion-inner__info-list
+                          li.n-accordion-inner__info-item Арагон
+                          li.n-accordion-inner__info-item Комплекты сменных картриджей
+                          li.n-accordion-inner__info-item Удаление бактерий
+                          li.n-accordion-inner__info-item Универсальные
+                          li.n-accordion-inner__info-item Комплектующие к картриджам Арагон
+
+
+          .n-accordion__item
+            .n-accordion__title-block
+              .n-accordion__title Стационарные фильтры
+              .n-accordion__title-icon
+            .n-accordion__info
+              ul.n-accordion__info-list
+                li.n-accordion__info-item Фильтры под мойку
+                li.n-accordion__info-item Насадки на кран
+                li.n-accordion__info-item
+                  .n-accordion-inner
+                    .n-accordion-inner__item
+                      .n-accordion-inner__title-block
+                        .n-accordion-inner__title Сменные элементы
+                        .n-accordion-inner__title-icon
+                      .n-accordion-inner__info
+                        ul.n-accordion-inner__info-list
+                          li.n-accordion-inner__info-item Арагон
+                          li.n-accordion-inner__info-item Комплекты сменных картриджей
+                          li.n-accordion-inner__info-item Удаление бактерий
+                          li.n-accordion-inner__info-item Универсальные
+                          li.n-accordion-inner__info-item Комплектующие к картриджам Арагон
+
+
+
+          .n-accordion__item
+            .n-accordion__title-block
+              .n-accordion__title Фильтры–кувшины
+              .n-accordion__title-icon
+            .n-accordion__info
+              ul.n-accordion__info-list
+                li.n-accordion__info-item Фильтры под мойку
+                li.n-accordion__info-item Насадки на кран
+                li.n-accordion__info-item
+                  .n-accordion-inner
+                    .n-accordion-inner__item
+                      .n-accordion-inner__title-block
+                        .n-accordion-inner__title Сменные элементы
+                        .n-accordion-inner__title-icon
+                      .n-accordion-inner__info
+                        ul.n-accordion-inner__info-list
+                          li.n-accordion-inner__info-item Арагон
+                          li.n-accordion-inner__info-item Комплекты сменных картриджей
+                          li.n-accordion-inner__info-item Удаление бактерий
+                          li.n-accordion-inner__info-item Универсальные
+                          li.n-accordion-inner__info-item Комплектующие к картриджам Арагон
+
+
+
+          .n-accordion__item
+            .n-accordion__title-block
+              .n-accordion__title Магистральные фильтры
+              .n-accordion__title-icon
+            .n-accordion__info
+              ul.n-accordion__info-list
+                li.n-accordion__info-item Фильтры под мойку
+                li.n-accordion__info-item Насадки на кран
+                li.n-accordion__info-item
+                  .n-accordion-inner
+                    .n-accordion-inner__item
+                      .n-accordion-inner__title-block
+                        .n-accordion-inner__title Сменные элементы
+                        .n-accordion-inner__title-icon
+                      .n-accordion-inner__info
+                        ul.n-accordion-inner__info-list
+                          li.n-accordion-inner__info-item Арагон
+                          li.n-accordion-inner__info-item Комплекты сменных картриджей
+                          li.n-accordion-inner__info-item Удаление бактерий
+                          li.n-accordion-inner__info-item Универсальные
+                          li.n-accordion-inner__info-item Комплектующие к картриджам Арагон
+
+
+
+          .n-accordion__item
+            .n-accordion__title-block
+              .n-accordion__title Фильтры для самогона
+              .n-accordion__title-icon
+            .n-accordion__info
+              ul.n-accordion__info-list
+                li.n-accordion__info-item Фильтры под мойку
+                li.n-accordion__info-item Насадки на кран
+                li.n-accordion__info-item
+                  .n-accordion-inner
+                    .n-accordion-inner__item
+                      .n-accordion-inner__title-block
+                        .n-accordion-inner__title Сменные элементы
+                        .n-accordion-inner__title-icon
+                      .n-accordion-inner__info
+                        ul.n-accordion-inner__info-list
+                          li.n-accordion-inner__info-item Арагон
+                          li.n-accordion-inner__info-item Комплекты сменных картриджей
+                          li.n-accordion-inner__info-item Удаление бактерий
+                          li.n-accordion-inner__info-item Универсальные
+                          li.n-accordion-inner__info-item Комплектующие к картриджам Арагон
+          .n-accordion__item
+            .n-accordion__title-block
+              .n-accordion__title Комплектующие
+              .n-accordion__title-icon
+            .n-accordion__info
+              ul.n-accordion__info-list
+                li.n-accordion__info-item Фильтры под мойку
+                li.n-accordion__info-item Насадки на кран
+                li.n-accordion__info-item
+                  .n-accordion-inner
+                    .n-accordion-inner__item
+                      .n-accordion-inner__title-block
+                        .n-accordion-inner__title Сменные элементы
+                        .n-accordion-inner__title-icon
+                      .n-accordion-inner__info
+                        ul.n-accordion-inner__info-list
+                          li.n-accordion-inner__info-item Арагон
+                          li.n-accordion-inner__info-item Комплекты сменных картриджей
+                          li.n-accordion-inner__info-item Удаление бактерий
+                          li.n-accordion-inner__info-item Универсальные
+                          li.n-accordion-inner__info-item Комплектующие к картриджам Арагон
+          .n-accordion__item
+            .n-accordion__title-block
+              .n-accordion__title Услуги
+              .n-accordion__title-icon
+            .n-accordion__info
+              ul.n-accordion__info-list
+                li.n-accordion__info-item Фильтры под мойку
+                li.n-accordion__info-item Насадки на кран
+                li.n-accordion__info-item
+                  .n-accordion-inner
+                    .n-accordion-inner__item
+                      .n-accordion-inner__title-block
+                        .n-accordion-inner__title Сменные элементы
+                        .n-accordion-inner__title-icon
+                      .n-accordion-inner__info
+                        ul.n-accordion-inner__info-list
+                          li.n-accordion-inner__info-item Арагон
+                          li.n-accordion-inner__info-item Комплекты сменных картриджей
+                          li.n-accordion-inner__info-item Удаление бактерий
+                          li.n-accordion-inner__info-item Универсальные
+                          li.n-accordion-inner__info-item Комплектующие к картриджам Арагон
+
+        form.aside-select
+          .aside-select__title выбор по параметрам
+          .aside-select__block.aside-select__cost-block
+            .aside-select__block-title Стоимость:
+            input#range(type="text" value="" name="range")
+          .aside-select__block
+            .aside-select__block-title Тип воды:
+            select.aside-select__input
+              option(selected="selected") Все типы
+              option Тип 1 Тип 1
+              option Типппппппп 1
+              option Тип 1
+              option Тип 1
+              option Тип 1
+          .aside-select__block
+            .aside-select__block-title Тип фильтра:
+            select.aside-select__input Все типы
+              option(selected="selected") Питьевые системы
+              option Тип 1 Тип 1
+              option Типппппппп 1
+              option Тип 1
+              option Тип 1
+              option Тип 1
+
+
+
+
+      .content
+        ul.breadcrumb
+          li
+            a(href="javascript:void(0);") Главная
+          li
+            a(href="javascript:void(0);") Каталог
+          li Для дома
+        h1 Фильтры и картриджи для квартиры
+        form.n-filter
+          .n-sort
+            .n-sort__title Сортировка:
+            .n-sort__item.n-sort__name.active По названию
+            .n-sort__item.n-sort__price По цене
+            .n-sort__item.n-sort__pop Популярности
+          .n-pagin__list
+            a(href="javascript:void(0);").n-pagin__item.active 1
+            a(href="javascript:void(0);").n-pagin__item 2
+            a(href="javascript:void(0);").n-pagin__item ...
+            a(href="javascript:void(0);").n-pagin__item 35
+            a(href="javascript:void(0);").n-pagin__item 36
+            a(href="javascript:void(0);").n-pagin__item 37
+            a(href="javascript:void(0);").n-pagin__item 38
+        .n-cat__card-wrap
+          +catalog-card
+          +catalog-card
+          +catalog-card
+          +catalog-card
+          +catalog-card
+          +catalog-card
+          +catalog-card
+        form.n-filter
+          .n-pagin__list
+            a(href="javascript:void(0);").n-pagin__item 1
+            a(href="javascript:void(0);").n-pagin__item 2
+            a(href="javascript:void(0);").n-pagin__item ...
+            a(href="javascript:void(0);").n-pagin__item 35
+            a(href="javascript:void(0);").n-pagin__item 36
+            a(href="javascript:void(0);").n-pagin__item 37
+            a(href="javascript:void(0);").n-pagin__item 38
+
+
+
+
+
+
+
+
+
