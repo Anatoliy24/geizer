@@ -1,0 +1,23 @@
+extends ../_template
+
+
+block variables
+  - var title = 'Главная страница'
+
+block content
+  .error-wrap
+    .error-img__wrap
+      .error-img
+    .error-desc__wrap
+      h1.error-desc__title Ошибка 404.</br><span>Страница не найдена.</span>
+      .error-desc
+        | Извините, запрошенная страница отсутствует на нашем сайте.
+        | Возможно, она была удалена, либо Вы ошиблись при наборе
+        | адреса или перешли по неверной ссылке.
+        | Если Вы у нас впервые, рекомендуем:
+      ul.error-list
+        li.error-item <span>Перейти на</span> <a href="#">Главную</a>
+        li.error-item <span>Ознакомиться с</span> <a href="#">каталогом продукции</a>
+        li.error-item <span>Узнать о способах</span> <a href="#">оплаты</a> и <a href="#">доставки</a>
+        li.error-item <span>Подать запрос на</span> <a href="#">сервисное обслуживание</a>
+

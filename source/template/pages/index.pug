@@ -5,65 +5,6 @@ block variables
   - var title = 'Главная страница'
 
 block content
-  header.n-header
-    .n-header-top
-      .n-header-top__logo
-      .n-header-top__b-contacts
-        .n-header-top__title.n-header-top__city Санкт-Петербург
-        a.n-header-top__b-tel(href='tel:88005002530') 8 (812) 605 00 55
-      .n-header-top__b
-        .n-header-top__icon.n-header-top__icon_basket
-        .n-header-top__item-b
-          .n-header-top__title Корзина
-          .n-header-top__quant Покупок нет
-          .n-header-top__quant.active 3шт. / 125 000 руб.
-      .n-header-top__b
-        .n-header-top__icon.n-header-top__icon_account
-        .n-header-top__item-b
-          .n-header-top__title Личный кабинет
-          .n-header-top__reg Вход / Регистрация
-          .n-header-top__reg.active Владимир
-
-    .n-header-bottom-wrap
-      .n-header-bottom
-        .n-header-bottom__cat Каталог
-          .n-header-bottom__drop-menu
-            .n-header__drop-menu-head
-              .n-header__drop-menu-head-title Фильтры и картриджи </br>для квартиры
-              .n-header__drop-menu-head-title Фильтры для</br> загородных домов
-              .n-header__drop-menu-head-close
-            .n-header__drop-menu-list-wrap
-              .n-header__drop-menu-list.n-header__drop-menu-list_left
-                a(href="javascript:void(0);").n-header__drop-menu-item Обратный осмос и НАНОТЕК
-                a(href="javascript:void(0);").n-header__drop-menu-item Стационарные фильтры
-                a(href="javascript:void(0);").n-header__drop-menu-item Фильтры–кувшины
-                a(href="javascript:void(0);").n-header__drop-menu-item Магистральные фильтры
-                a(href="javascript:void(0);").n-header__drop-menu-item Фильтры для самогона
-                a(href="javascript:void(0);").n-header__drop-menu-item Комплектующие
-                a(href="javascript:void(0);").n-header__drop-menu-item Услуги
-              .n-header__drop-menu-list.n-header__drop-menu-list_right
-                a(href="javascript:void(0);").n-header__drop-menu-item Баки для химических реагентов
-                a(href="javascript:void(0);").n-header__drop-menu-item Дисковые фильтры механической очистки Jimten
-                a(href="javascript:void(0);").n-header__drop-menu-item Кабинеты
-                a(href="javascript:void(0);").n-header__drop-menu-item Фильтры механической очистки
-                a(href="javascript:void(0);").n-header__drop-menu-item Комплекты фильтров (без наполнителя)
-                a(href="javascript:void(0);").n-header__drop-menu-item Умягчители
-                a(href="javascript:void(0);").n-header__drop-menu-item Установки обратного осмоса
-                a(href="javascript:void(0);").n-header__drop-menu-item УФ-стерилизаторы
-
-        .n-header-bottom__menu
-          .n-header-bottom__menu-list
-            a(href="javascript:void(0);").n-header-bottom__menu-item О магазине
-            a(href="javascript:void(0);").n-header-bottom__menu-item Акции
-            a(href="javascript:void(0);").n-header-bottom__menu-item Доставка
-            a(href="javascript:void(0);").n-header-bottom__menu-item Оплата
-            a(href="javascript:void(0);").n-header-bottom__menu-item Контакты
-            a(href="javascript:void(0);").n-header-bottom__menu-item Сервис
-        .n-header-bottom__search
-          input(type='search')
-
-
-
   main.content-holder
     .hold-content
       aside.aside
@@ -231,25 +172,31 @@ block content
           .aside-select__title выбор по параметрам
           .aside-select__block.aside-select__cost-block
             .aside-select__block-title Стоимость:
-            input#range(type="text" value="" name="range")
+            .range
+              .range-dots
+              input.range1(type="text" name="example_name" value="")
+
           .aside-select__block
             .aside-select__block-title Тип воды:
             select.aside-select__input
               option(selected="selected") Все типы
-              option Тип 1 Тип 1
-              option Типппппппп 1
-              option Тип 1
-              option Тип 1
-              option Тип 1
+              option Тип воды 1
+              option Тип воды 1
+              option Тип воды 1
+              option Тип воды 1
+              option Тип воды 1
+              option Тип воды 1
+              option Тип воды 1
           .aside-select__block
             .aside-select__block-title Тип фильтра:
             select.aside-select__input Все типы
               option(selected="selected") Питьевые системы
-              option Тип 1 Тип 1
-              option Типппппппп 1
-              option Тип 1
-              option Тип 1
-              option Тип 1
+              option Тип фильтра 1
+              option Тип фильтра 1
+              option Тип фильтра 1
+              option Тип фильтра 1
+              option Тип фильтра 1
+              option Тип фильтра 1
 
 
 
@@ -278,10 +225,9 @@ block content
             a(href="javascript:void(0);").n-pagin__item 38
         .n-cat__card-wrap
           +catalog-card
+          +catalog-card-1
           +catalog-card
-          +catalog-card
-          +catalog-card
-          +catalog-card
+          +catalog-card-1
           +catalog-card
           +catalog-card
         form.n-filter

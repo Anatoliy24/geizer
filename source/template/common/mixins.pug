@@ -6,12 +6,37 @@ mixin catalog-card
         .n-cat__card-stars
         .n-cat__card-stars-full(style="width: 75%;")
     .n-cat__card-img(style="background-image:url('assets/images/foto-card.jpg')")
-    .n-cat__card-title Гейзер Аллегро М обратный осмос с минерализатором
+    .n-cat__card-title
+      p Гейзер Аллегро М обратный осмос с минерализатором
+
     .n-cat__card-desc
-      | Максимальная степень очистки воды, удаление бактерий
+      p Максимальная степень очистки воды, удаление бактерий Максимальная степень очистки воды, удаление бактерий
+
     .n-cat__card-price-block
       .n-cat__card-price-new 28 700 <span class="rub">Ь</span>
       .n-cat__card-price-old.active <s>30 200</s> <span class="rub">ь</span>
+    button.n-cat__card-button
+      .n-cat__card-button-basket В корзину
+      .n-cat__card-button-add
+
+
+mixin catalog-card-1
+  a(href="javascript:void(0);").n-cat__card
+    .n-cat__card-top
+      .n-cat__card-art Арт. 256037
+      .n-cat__card-stars-block
+        .n-cat__card-stars
+        .n-cat__card-stars-full(style="width: 75%;")
+    .n-cat__card-img(style="background-image:url('assets/images/foto-card.jpg')")
+    .n-cat__card-title
+      p Гейзер Аллегро М обратный осмос с минерализатором осмос с минерализатором
+
+    .n-cat__card-desc
+      p Максимальная степень очистки воды, удаление бактерий
+
+    .n-cat__card-price-block
+      .n-cat__card-price-new 5 700 <span class="rub">Ь</span>
+      .n-cat__card-price-old <s>30 200</s> <span class="rub">ь</span>
     button.n-cat__card-button
       .n-cat__card-button-basket В корзину
       .n-cat__card-button-add
